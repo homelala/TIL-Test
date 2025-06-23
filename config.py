@@ -1,0 +1,1 @@
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:lee2836@localhost/TEST_DATABASE'
