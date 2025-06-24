@@ -7,8 +7,10 @@ app = Flask(__name__)
 def test():
     return "success"
 
-from view import register_app
+from database import init_db
+init_db(app)
 
+from view import register_app
 register_app(app)
 
 if __name__ == '__main__':
