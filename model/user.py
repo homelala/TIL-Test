@@ -10,3 +10,4 @@ class User(db.Model):
     name = db.Column(db.String(80))
     email = db.Column(db.String(80), unique=True)
     created_at = db.Column(db.DateTime, default=datetime.now())
+    orders = db.relationship("Order")

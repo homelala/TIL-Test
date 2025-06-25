@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="Mysql DB 설정 1">
-      <change afterPath="$PROJECT_DIR$/dto/user.py" afterDir="false" />
+    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="POST, PUT API 추가">
+      <change afterPath="$PROJECT_DIR$/dto/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/orderService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/indexing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/order.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,13 +172,22 @@
       <option name="project" value="LOCAL" />
       <updated>1750689324600</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="POST, PUT API 추가">
+      <option name="closed" value="true" />
+      <created>1750756348778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750756348778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="기본 웹 서버 작성" />
     <MESSAGE value="Mysql DB 설정 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mysql DB 설정 1" />
+    <MESSAGE value="POST, PUT API 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="POST, PUT API 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
