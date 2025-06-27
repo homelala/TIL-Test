@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="POST, PUT API 추가">
-      <change afterPath="$PROJECT_DIR$/dto/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/orderService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/indexing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/order.py" afterDir="false" />
+    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="상품 주문 모델 및 API 추가">
+      <change afterPath="$PROJECT_DIR$/infra/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infra/redis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/orderService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/orderService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +46,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.flask.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/homelala/Documents/Github/TIL-Test",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.flask.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/homelala/Documents/Github/TIL-Test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="flask" type="PythonConfigurationType" factoryName="Python">
       <module name="untrusted" />
@@ -180,14 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1750756348778</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="상품 주문 모델 및 API 추가">
+      <option name="closed" value="true" />
+      <created>1750842330398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750842330398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="기본 웹 서버 작성" />
     <MESSAGE value="Mysql DB 설정 1" />
     <MESSAGE value="POST, PUT API 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="POST, PUT API 추가" />
+    <MESSAGE value="상품 주문 모델 및 API 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="상품 주문 모델 및 API 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,6 +199,16 @@
           <url>file://$PROJECT_DIR$/view/user.py</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/infra/redis.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/infra/redis.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
