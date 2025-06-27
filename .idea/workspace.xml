@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="상품 주문 모델 및 API 추가">
-      <change afterPath="$PROJECT_DIR$/infra/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infra/redis.py" afterDir="false" />
+    <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="동시성 테스트 반영">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/orderService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/orderService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/order.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750842330398</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="동시성 테스트 반영">
+      <option name="closed" value="true" />
+      <created>1751011124529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1751011124529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,7 +195,8 @@
     <MESSAGE value="Mysql DB 설정 1" />
     <MESSAGE value="POST, PUT API 추가" />
     <MESSAGE value="상품 주문 모델 및 API 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="상품 주문 모델 및 API 추가" />
+    <MESSAGE value="동시성 테스트 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="동시성 테스트 반영" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
