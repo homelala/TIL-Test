@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="860c9a63-ac26-40fb-84b1-b078bc8ce723" name="변경" comment="gitignore 작성">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/nginx/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server1/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server1/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server1/server1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server2/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server2/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server2/server2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server3/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server3/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx_test/server3/server3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/orderService.py" beforeDir="false" afterPath="$PROJECT_DIR$/service/orderService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Dockerfile" />
         <option value="Python Script" />
       </list>
     </option>
@@ -34,6 +54,13 @@
     &quot;accountId&quot;: &quot;39a7bc54-4168-4db9-9879-84c3018ab472&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../env/TIL-Test/lib/python3.12/site-packages/flask_apispec/annotations.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../env/TIL-Test/lib/python3.12/site-packages/flask_apispec/wrapper.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../env/TIL-Test/lib/python3.12/site-packages/redlock/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../env/TIL-Test/lib/python3.12/site-packages/redlock/lock.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../env/TIL-Test/lib/python3.12/site-packages/sqlalchemy/orm/relationships.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -42,18 +69,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.flask.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/homelala/Documents/Github/TIL-Test&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.flask.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/homelala/Documents/Github/TIL-Test/nginx_test/server3",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx_test/server3" />
+      <recent name="$PROJECT_DIR$/nginx_test/server2" />
+      <recent name="$PROJECT_DIR$/nginx_test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nginx_test/server1" />
+      <recent name="$PROJECT_DIR$/nginx_test/server3" />
+      <recent name="$PROJECT_DIR$/nginx_test/server2" />
+      <recent name="$PROJECT_DIR$/nginx_test" />
+      <recent name="$PROJECT_DIR$/nginx_test/nginx" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main">
     <configuration name="flask" type="PythonConfigurationType" factoryName="Python">
       <module name="untrusted" />
@@ -210,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751012534767</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="gitignore 작성">
+      <option name="closed" value="true" />
+      <created>1751012601340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1751012601340</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

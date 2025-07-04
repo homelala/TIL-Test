@@ -6,10 +6,10 @@ from database import db
 
 
 class UserView(FlaskView):
-    @route("/")
+    @route("/<int:user_id>")
     @marshal_with(UserSchema, code=200)
-    def get(self):
-        return User.query.filter_by(name="test1").first(), 200
+    def get(self, user_id):
+        return User.query.filter_by(id=user_id).first(), 200
 
     @route("/", methods=["POST"])
     @use_kwargs(RegisterUserSchema, locations=["json"])

@@ -58,7 +58,7 @@ class OrderService:
         products = Product.query.filter(Product.id.in_(product_ids)).all()
         indexed_product = indexing(products, key=lambda x: x.id)
 
-        order_details = OrderDetailService.create_order_detail(
+        order_details = OrderDetailService.create_order_detail_with_redis_lock(
             order_list, indexed_product, order
         )
 
@@ -86,7 +86,6 @@ class OrderService:
 
 
 class OrderDetailService:
-
     @classmethod
     def create_order_detail(cls, order_list, indexed_product, order):
         order_details = []

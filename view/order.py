@@ -9,5 +9,5 @@ class OrderView(FlaskView):
     @route("/", methods=["POST"])
     @use_kwargs(OrderSchema, code=200)
     def post(self, user_id, order_list, address):
-        OrderService.order_product_correct_lock(user_id, address, order_list)
+        OrderService.order_product_with_redis_lock(user_id, address, order_list)
         return "", 200
